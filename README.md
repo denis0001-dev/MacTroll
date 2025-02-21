@@ -5,7 +5,7 @@
 ## Как использовать
 1. Откройте терминал на компьютере жертвы и введите:
    ```
-   bash < (curl -s https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/run.sh)
+   mkdir -p /tmp/troll && curl -s https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/run.sh > /tmp/troll/run.sh && chmod +x /tmp/troll/run.sh && /tmp/troll/run.sh
    ```
 2. Введите кол-во секунд, на которое показать экран загрузки.
 
