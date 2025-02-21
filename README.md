@@ -2,13 +2,17 @@
 Программа для троллинга пользователей Mac, использующая `launchprogresswindow` из установщика macOS Monterey 
 для показа окна загрузки системы на какое-то время.
 
+## Совместимость
+Программа должна работать на macOS Monterey и выше.
+Проверено на macOS Monterey, macOS Ventura и macOS Sequoia.
+
 ## Как использовать
 1. Откройте терминал на компьютере жертвы и введите:
    
    ```
    mkdir -p /tmp/troll && curl -s https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/run.sh > /tmp/troll/run.sh && chmod +x /tmp/troll/run.sh && /tmp/troll/run.sh
    ```
-3. Введите кол-во секунд, на которое показать экран загрузки.
+2. Введите кол-во секунд, на которое показать экран загрузки.
 
 После этого экран загрузки будет висеть на указанное кол-во секунд.
 
