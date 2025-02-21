@@ -5,6 +5,7 @@ cd troll
 curl -O https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/launchprogresswindow
 curl -O https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/troll.sh
 chmod +x troll.sh
+chmod +x launchprogresswindow
 
 cleanup() {
   rm -rf /tmp/troll
