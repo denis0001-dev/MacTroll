@@ -10,6 +10,7 @@ cleanup() {
   rm -rf /tmp/troll
 }
 
+echo -n "Enter the seconds: "
 read seconds
 if ! [[ $seconds =~ ^-?[0-9]+$ ]]; then
   echo "Error: invalid integer"
