@@ -5,7 +5,7 @@
 ## Как использовать
 1. Откройте терминал на компьютере жертвы и введите:
    ```
-   bash < (curl -s https://github.com/denis0001-dev/MacTroll/raw/refs/heads/main/run.sh)
+   bash < (curl -s https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/run.sh)
    ```
 2. Введите кол-во секунд, на которое показать экран загрузки.
 
