@@ -2,8 +2,8 @@
 cd /tmp
 mkdir troll
 cd troll
-curl -O https://github.com/denis0001-dev/MacTroll/raw/refs/heads/main/launchprogresswindow
-curl -O https://github.com/denis0001-dev/MacTroll/raw/refs/heads/main/troll.sh
+curl -O https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/launchprogresswindow
+curl -O https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/troll.sh
 chmod +x troll.sh
 
 cleanup() {
