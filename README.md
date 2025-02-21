@@ -3,30 +3,11 @@
 для показа окна загрузки системы на какое-то время.
 
 ## Как использовать
-### 1. Скачайте репозиторий
-Есть два способа:
-
-#### 1. Через терминал
-1. Установливаем Git через [Homebrew](https://github.com/Homebrew/brew):
-   
+1. Откройте терминал на компьютере жертвы и введите:
    ```
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   brew install git
+   bash < (curl -s https://github.com/denis0001-dev/MacTroll/raw/refs/heads/main/run.sh)
    ```
-3. Клонируем репозиторий на компьютере жертвы.
-   
-   ```
-   git clone https://github.com/denis0001/MacTroll.git
-   cd MacTroll
-   ```
-#### 2. Через GitHub
-[Скачайте](https://github.com/denis0001-dev/MacTroll/archive/refs/heads/main.zip) и распакуйте архив репозитория.
-
-### 2. Запустите скрипт
-Откройте терминал в папке репозитория и введите команду:
-```
-./troll.sh <время в секундах, на которое показывать экран загрузки.>
-```
+2. Введите кол-во секунд, на которое показать экран загрузки.
 
 После этого экран загрузки будет висеть на указанное кол-во секунд.
 
