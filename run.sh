@@ -17,4 +17,6 @@ if ! [[ $seconds =~ ^-?[0-9]+$ ]]; then
   exit 1
 fi
 ./troll.sh $seconds
+exitCode=$!
 cleanup
+exit $exitCode
