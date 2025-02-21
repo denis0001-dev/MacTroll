@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp
-mkdir troll
+mkdir -f troll
 cd troll
 curl -O https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/launchprogresswindow
 curl -O https://raw.githubusercontent.com/denis0001-dev/MacTroll/refs/heads/main/troll.sh
